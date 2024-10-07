@@ -37,13 +37,14 @@
 					<path>/helloworld</path>
 					<username>admin</username>
 					<password>admin</password>
+					<update>true</update>
 				</configuration>
 				<executions>
 					<execution>
 						<id>sleep</id>
 						<phase>install</phase>
 						<goals>
-							<goal>redeploy</goal>
+							<goal>deploy</goal>
 						</goals>
 					</execution>
 				</executions>
